@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+}
+
+#headImg{
+    height: 100px;
+    width: 270px;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.count div{
+    text-align: center;
+}
+.result{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.resHead{
+    width: 100%;
+}
+
+.showImg{
+ display: flex;
+ width: 100%;
+ justify-content: space-evenly;
+}
+.showImg img{
+    width: 250px;
+    height: 230px;
+}
+
+
+
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons input{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: cadetblue;
+    font-size: large;
+    font-family: monospace;
+    color: rgb(40, 14, 58);
+}
